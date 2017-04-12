@@ -1,0 +1,23 @@
+<%-- 
+    Document   : Hellworld
+    Created on : 2017/03/27, 14:26:19
+    Author     : yuto
+--%>
+<%
+String yuto ="金子優斗です。最近横浜の中華街で手相を見てもらったら、85歳までは生きる！と言われました。"
+        + "健康に気を使って寿命を延ばし、この目で22世紀を見てみたいです。（106歳まで生きることが出来ればそれが可能）";
+out.print(yuto);
+%>
+
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>
