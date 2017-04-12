@@ -1,0 +1,44 @@
+<%-- 
+    Document   : quelistring
+    Created on : 2017/03/27, 16:36:43
+    Author     : yuto
+--%>
+
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+ //Q1
+String variable1=request.getParameter("param1");
+String variable2=request.getParameter("param2");
+String variable3=request.getParameter("param3");
+out.println(variable1);
+out.println(variable2);
+out.println(variable3);
+ //Q2
+int newvariable1= Integer.parseInt(variable1);
+int newvariable2= Integer.parseInt(variable2);
+out.println(variable1);
+out.println(newvariable1/newvariable2);
+//Q3
+if(newvariable1>=5000){
+out.println(newvariable1*1.05);
+}
+else if (newvariable1>=3000){
+out.println(newvariable1*1.04);
+}
+else{
+out.println(newvariable1);
+}
+
+
+%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>
